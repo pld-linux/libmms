@@ -1,4 +1,5 @@
-Summary:	LibMMS is mms:// and mmsh:// parsing library
+Summary:	LibMMS - mms:// and mmsh:// parsing library
+Summary(pl):	LibMMS - biblioteka przetwarzaj±ca mms:// i mmsh://
 Name:		libmms
 Version:	0.1
 Release:	1
@@ -12,6 +13,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 LibMMS is mms:// and mmsh:// (Microsoft streaming protocols) parsing
 library.
+
+%description -l pl
+LibMMS to biblioteka przetwarzaj±ca mms:// i mmsh:// (protoko³y
+strumieni Microsoftu).
 
 %package devel
 Summary:	Header files for libmms library
