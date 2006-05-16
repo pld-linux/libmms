@@ -8,7 +8,10 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/libmms/%{name}-%{version}.tar.gz
 # Source0-md5:	7e7117f8a28b21ce11beb3d2816066ff
 URL:		http://sourceforge.net/projects/libmms/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0.0
+BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -49,6 +52,11 @@ Statyczna biblioteka libmms.
 %setup -q
 
 %build
+%{__libtoolize}
+%{__aclocal}
+%{__autoconf}
+%{__autoheader}
+%{__automake}
 %configure
 %{__make} \
 	PKG_LIBS='$(GLIB_LIBS)'
