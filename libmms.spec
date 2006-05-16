@@ -11,6 +11,7 @@ URL:		http://sourceforge.net/projects/libmms/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0.0
+BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -51,10 +52,11 @@ Statyczna biblioteka libmms.
 %setup -q
 
 %build
+%{__libtoolize}
 %{__aclocal}
 %{__autoconf}
+%{__autoheader}
 %{__automake}
-cp -f /usr/share/automake/config.sub .
 %configure
 %{__make} \
 	PKG_LIBS='$(GLIB_LIBS)'
