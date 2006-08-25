@@ -1,12 +1,12 @@
 Summary:	LibMMS - mms:// and mmsh:// parsing library
 Summary(pl):	LibMMS - biblioteka przetwarzaj±ca mms:// i mmsh://
 Name:		libmms
-Version:	0.2
-Release:	2
+Version:	0.3
+Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/libmms/%{name}-%{version}.tar.gz
-# Source0-md5:	7e7117f8a28b21ce11beb3d2816066ff
+# Source0-md5:	1601705f38143687a575630a3f9d6a56
 URL:		http://sourceforge.net/projects/libmms/
 BuildRequires:	autoconf
 BuildRequires:	automake
