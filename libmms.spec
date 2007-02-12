@@ -1,5 +1,5 @@
 Summary:	LibMMS - mms:// and mmsh:// parsing library
-Summary(pl):	LibMMS - biblioteka przetwarzaj±ca mms:// i mmsh://
+Summary(pl.UTF-8):   LibMMS - biblioteka przetwarzajƒÖca mms:// i mmsh://
 Name:		libmms
 Version:	0.3
 Release:	1
@@ -19,13 +19,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 LibMMS is mms:// and mmsh:// (Microsoft streaming protocols) parsing
 library.
 
-%description -l pl
-LibMMS to biblioteka przetwarzaj±ca mms:// i mmsh:// (protoko≥y
+%description -l pl.UTF-8
+LibMMS to biblioteka przetwarzajƒÖca mms:// i mmsh:// (protoko≈Çy
 strumieni Microsoftu).
 
 %package devel
 Summary:	Header files for libmms library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libmms
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libmms
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 2.0.0
@@ -33,19 +33,19 @@ Requires:	glib2-devel >= 2.0.0
 %description devel
 Header files for libmms library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libmms.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libmms.
 
 %package static
 Summary:	Static libmms library
-Summary(pl):	Statyczna biblioteka libmms
+Summary(pl.UTF-8):   Statyczna biblioteka libmms
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libmms library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libmms.
 
 %prep
