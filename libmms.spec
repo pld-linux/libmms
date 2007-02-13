@@ -1,5 +1,5 @@
 Summary:	LibMMS - mms:// and mmsh:// parsing library
-Summary(pl.UTF-8):   LibMMS - biblioteka przetwarzająca mms:// i mmsh://
+Summary(pl.UTF-8):	LibMMS - biblioteka przetwarzająca mms:// i mmsh://
 Name:		libmms
 Version:	0.3
 Release:	1
@@ -25,7 +25,7 @@ strumieni Microsoftu).
 
 %package devel
 Summary:	Header files for libmms library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libmms
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmms
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 2.0.0
@@ -38,7 +38,7 @@ Pliki nagłówkowe biblioteki libmms.
 
 %package static
 Summary:	Static libmms library
-Summary(pl.UTF-8):   Statyczna biblioteka libmms
+Summary(pl.UTF-8):	Statyczna biblioteka libmms
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
