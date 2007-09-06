@@ -2,7 +2,7 @@ Summary:	LibMMS - mms:// and mmsh:// parsing library
 Summary(pl.UTF-8):	LibMMS - biblioteka przetwarzająca mms:// i mmsh://
 Name:		libmms
 Version:	0.3
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/libmms/%{name}-%{version}.tar.gz
