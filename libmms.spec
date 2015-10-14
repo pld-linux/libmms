@@ -1,16 +1,15 @@
 Summary:	LibMMS - mms:// and mmsh:// parsing library
 Summary(pl.UTF-8):	LibMMS - biblioteka przetwarzająca mms:// i mmsh://
 Name:		libmms
-Version:	0.6.2
-Release:	2
+Version:	0.6.4
+Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/libmms/%{name}-%{version}.tar.gz
-# Source0-md5:	9f63aa363deb4874e072a45850161bff
+# Source0-md5:	d6b665b335a6360e000976e770da7691
 URL:		http://sourceforge.net/projects/libmms/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -28,7 +27,6 @@ Summary:	Header files for libmms library
 Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libmms
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	glib2-devel >= 2.0.0
 
 %description devel
 Header files for libmms library.
